@@ -187,6 +187,7 @@ article.programming, article.safari, article.bobby {
   opacity: 0.95;
 }
 
+
 article.advocate::before {
   -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
   -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
@@ -201,57 +202,232 @@ article.smoke::before {
   background-image: url("../img/smoke.gif");
 }
 
-article.old-web::before {
+article.dive::before {
   -webkit-filter: none;
   -moz-filter: none;
   filter: none;
-  background-size: 80%;
-  background-image: url("../img/SpaceJam.gif");
+  background-size: contain;
+  background-image: url("../img/dive.gif");
 }
 
-article.current-web::before {
+article.rewind::before {
   -webkit-filter: none;
   -moz-filter: none;
   filter: none;
-  background-size: 80%;
-  background-image: url("../img/Auth0.gif");
+  background-image: url("../img/rewind.gif");
 }
 
-article.lost::before {
+article.compiling::before {
   -webkit-filter: none;
   -moz-filter: none;
   filter: none;
-  background-image: url("../img/lost.gif");
+  background-size: contain;
+  background-image: url("../img/compiling.png");
 }
 
-article.persian-cat::before {
-  -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
-  -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
-  filter: blur(2.25px) grayscale(0.3) brightness(0.4);
-  background-image: url("../img/persian.jpg");
+article.compiling, article.staring, article.recorded-gif {
+  background-color: white;
+  opacity: 0.95;
 }
 
-article.not-cool::before {
+article.staring::before {
   -webkit-filter: none;
   -moz-filter: none;
   filter: none;
-  background-image: url("../img/notcool.gif");
+  background-size: contain;
+  background-image: url("../img/staring.png");
+}
+
+article.google::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/GoogleSearch.gif");
+}
+
+article.copy-paste::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/CopyPasteCode.gif");
+}
+
+article.examples::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/Examples.gif");
 }
 
 
-article.chuck::before {
-  -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
-  -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
-  filter: blur(2.25px) grayscale(0.3) brightness(0.4);
-  background-image: url("../img/chuck.jpg");
+article.packages::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/Packages.gif");
 }
 
+article.so::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/StackOverflow.gif");
+}
 
-article.options::before {
-  -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
-  -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
-  filter: blur(2.25px) grayscale(0.3) brightness(0.4);
-  background-image: url("../img/options.jpg");
+article.shit::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-image: url("../img/shit.gif");
+}
+
+article.tailored-docs::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/tailored-docs.png");
+}
+
+article.configured-seeds::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/ConfiguredSeeds.gif");
+}
+
+article.nodejs-github-code::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/nodejs-github-code.png");
+}
+
+article.nodejs-github-readme::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/nodejs-github-readme.png");
+}
+
+article.sample-generator::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/configured-sample-generator-github.png");
+}
+
+article.sample-generator-code::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/configured-sample-generator-code-1.png");
+}
+
+article.sample-generator-code2::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/configured-sample-generator-code-2.png");
+}
+
+article.github-readme::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/github-readme.gif");
+}
+
+article.docs-github::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/docs-github.png");
+}
+
+article.docs-page::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/docs-auth0.png");
+}
+
+article.docs-manage::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/docs-manage.png");
+}
+
+article.docs-lodash::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/lodash-templating.gif");
+}
+
+article.fix-docs::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/fix-docs.gif");
+}
+
+article.ask::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/ask.png");
+}
+
+article.live-api::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/api.gif");
+}
+
+article.live-api2::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/apiv2.gif");
+}
+
+article.mind-blown::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/mind-blown.gif");
+}
+
+article.tripjs::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/tripjs-demo.gif");
 }
 
 article.subject-change::before {
@@ -261,54 +437,9 @@ article.subject-change::before {
   background: green;
 }
 
-article.sub-subject-change::before {
-  -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
-  -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
-  filter: blur(2.25px) grayscale(0.3) brightness(0.4);
-  background: gray;
-}
 
 
 
-article.dive::before {
-  -webkit-filter: none;
-  -moz-filter: none;
-  filter: none;
-  background-position: top;
-  background-image: url("../img/dive.gif");
-}
-
-article.dump-elephant::before {
-  -webkit-filter: none;
-  -moz-filter: none;
-  filter: none;
-  background-position: top;
-  background-image: url("../img/dump-elephant.gif");
-}
-
-article.boom::before {
-  -webkit-filter: none;
-  -moz-filter: none;
-  filter: none;
-  background-position: top;
-  background-image: url("../img/boom.gif");
-}
-
-article.bobby::before {
-  -webkit-filter: none;
-  -moz-filter: none;
-  filter: none;
-  background-size: contain;
-  background-image: url("../img/bobby.png");
-}
-
-article.boom-save::before {
-  -webkit-filter: none;
-  -moz-filter: none;
-  filter: none;
-  background-position: top;
-  background-image: url("../img/boom-save.gif");
-}
 
 
 .profile {
@@ -334,4 +465,8 @@ article.boom-save::before {
   display: inline-block;
   text-transform: lowercase;
   font-size: 2em;
+}
+
+.bold {
+  color: red;
 }
