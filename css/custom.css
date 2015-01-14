@@ -430,6 +430,38 @@ article.tripjs::before {
   background-image: url("../img/tripjs-demo.gif");
 }
 
+article.quickstart::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/quickstart.gif");
+}
+
+article.help::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/help.png");
+}
+
+article.do::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/do.png");
+}
+
+article.do-docs::before {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  background-size: contain;
+  background-image: url("../img/do-docs.png");
+}
+
 article.subject-change::before {
   -webkit-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
   -moz-filter: blur(2.25px) grayscale(0.3) brightness(0.4);
