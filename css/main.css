@@ -457,3 +457,8 @@ section .firefoxos {
 pre[class*="language-"] {
   line-height: 1.5em
 }
+
+.fake-list.two-columns {
+  display: inline-block;
+  width: 550px;
+}
